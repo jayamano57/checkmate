@@ -12,6 +12,7 @@ import { ButtonWrapper } from '@/components/ButtonWrapper/ButtonWrapper';
 import { appendZero } from '@/utils/appendZero';
 import { CMCheck } from '@/services/check/check.types';
 import { UserRole } from './page.client';
+import { Overlay } from '@/components/Overlay/Overlay';
 
 interface CheckContactMeScreenProps {
   check: CMCheck;
@@ -60,11 +61,14 @@ export function CheckContactMeScreen({
 
   const [isValid, setIsValid] = useState(false);
 
+  const [processing, setProcessing] = useState(false);
+
   const [venmo, setVenmo] = useState('');
   const [zelle, setZelle] = useState('');
   const [message, setMessage] = useState('');
 
   const handleCopyLink = async () => {
+    setProcessing(true);
     const checkCopy = { ...check };
     checkCopy.paymentMethod = {
       venmo: venmo ?? null,
@@ -79,6 +83,7 @@ export function CheckContactMeScreen({
     // copy link
     await navigator.clipboard.writeText(window.location.href);
 
+    setProcessing(false);
     setCheckState(checkCopy);
 
     goToAllDone();
@@ -173,6 +178,7 @@ export function CheckContactMeScreen({
           </div>
         )}
       </div>
+      {processing && <Overlay>Processing ...</Overlay>}
     </CheckPageLayout>
   );
 }
