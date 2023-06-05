@@ -1,0 +1,55 @@
+{
+  "cssImports": {
+    "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/app/layout.tsx": [
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Roboto\",\"arguments\":[{\"weight\":[\"100\",\"300\",\"400\",\"500\",\"700\"],\"style\":[\"normal\",\"italic\"],\"subsets\":[\"latin\"]}],\"variableName\":\"roboto\"}",
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/app/globals.css",
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/node_modules/react-loading-skeleton/dist/skeleton.css",
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/app/page.module.css"
+    ],
+    "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/app/page.tsx": [
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/app/page.module.css",
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/components/Overlay/styles.module.css",
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/components/AppLogo/styles.module.css",
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/components/TextInput/styles.module.css",
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/components/Button/styles.module.css"
+    ],
+    "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/app/[checkId]/page.tsx": [
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/components/Button/styles.module.css",
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/app/[checkId]/styles.module.css",
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/components/CheckEditItem/styles.module.css",
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/components/ButtonWrapper/styles.module.css",
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/components/NumberBadge/styles.module.css",
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/components/CheckEditableAmountInput/styles.module.css",
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/components/CheckItemSelect/styles.module.css",
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/components/PaymentMethodContainer/styles.module.css",
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/components/LoadingSkeleton/styles.module.css"
+    ]
+  },
+  "cssModules": {
+    "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/app/page": [
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/app/globals.css",
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/node_modules/react-loading-skeleton/dist/skeleton.css",
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Roboto\",\"arguments\":[{\"weight\":[\"100\",\"300\",\"400\",\"500\",\"700\"],\"style\":[\"normal\",\"italic\"],\"subsets\":[\"latin\"]}],\"variableName\":\"roboto\"}",
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/app/page.module.css",
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/components/Overlay/styles.module.css",
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/components/AppLogo/styles.module.css",
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/components/TextInput/styles.module.css",
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/components/Button/styles.module.css"
+    ],
+    "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/app/[checkId]/page": [
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/components/LoadingSkeleton/styles.module.css",
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/app/globals.css",
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/node_modules/react-loading-skeleton/dist/skeleton.css",
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Roboto\",\"arguments\":[{\"weight\":[\"100\",\"300\",\"400\",\"500\",\"700\"],\"style\":[\"normal\",\"italic\"],\"subsets\":[\"latin\"]}],\"variableName\":\"roboto\"}",
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/app/page.module.css",
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/components/Button/styles.module.css",
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/app/[checkId]/styles.module.css",
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/components/ButtonWrapper/styles.module.css",
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/components/NumberBadge/styles.module.css",
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/components/CheckEditItem/styles.module.css",
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/components/CheckEditableAmountInput/styles.module.css",
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/components/CheckItemSelect/styles.module.css",
+      "/Users/jayamano57/Desktop/Projects/check-mate/frontend/src/components/PaymentMethodContainer/styles.module.css"
+    ]
+  }
+}

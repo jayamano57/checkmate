@@ -1,0 +1,60 @@
+.checkItemSelectorContainer {
+  width: 100%;
+}
+
+.buttonWrapper {
+  width: 100%;
+  margin-bottom: 4px;
+}
+
+.checkItemSelect {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border: 1px solid var(--main-dark);
+  border-radius: 4px;
+  padding: 12px 8px;
+  font-size: 1rem;
+}
+
+.checkItemSelect.selected {
+  background-color: var(--main-dark);
+  color: var(--main-light);
+}
+
+.checkItemSelect.selected .price {
+  color: var(--gray-2-light);
+}
+
+.checkItemSelect.disabled {
+  border: 1px solid var(--gray-3-light);
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.quantity {
+  font-size: 0.9rem;
+  margin-left: 4px;
+}
+
+.numberBadgeWrapper {
+  margin-right: 8px;
+}
+
+.price {
+  color: var(--gray-3-light);
+  font-style: italic;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: flex-end;
+}
+
+.ownersList {
+  color: var(--main-dark);
+  font-size: 0.8rem;
+  font-style: italic;
+}

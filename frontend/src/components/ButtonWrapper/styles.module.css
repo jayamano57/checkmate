@@ -1,0 +1,9 @@
+.buttonWrapper {
+  border: none;
+  background: none;
+  text-align: left;
+}
+
+.buttonWrapper.active:active {
+  opacity: 0.7;
+}
