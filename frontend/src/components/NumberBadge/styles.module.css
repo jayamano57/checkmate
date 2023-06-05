@@ -1,0 +1,21 @@
+.numberBadge {
+  position: relative;
+  font-size: 14px;
+
+  height: 18px;
+  width: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.dark {
+  background-color: var(--main-dark);
+  color: var(--main-light);
+}
+
+.light {
+  background-color: var(--main-light);
+  color: var(--main-dark);
+}
