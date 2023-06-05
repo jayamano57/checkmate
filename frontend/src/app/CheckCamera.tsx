@@ -17,7 +17,12 @@ export function CheckCamera({
   return (
     <div className={styles.cameraWrapper}>
       {appState === 'camera' && !photoSrc && (
-        <video ref={cameraRef} autoPlay className={styles.videoImage}>
+        <video
+          ref={cameraRef}
+          autoPlay
+          playsInline
+          className={styles.videoImage}
+        >
           Video stream not available.
         </video>
       )}

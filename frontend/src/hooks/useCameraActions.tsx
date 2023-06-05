@@ -2,7 +2,11 @@ export function useCameraActions() {
   const initCamera = async (cameraRef: HTMLVideoElement | null) => {
     if (!cameraRef) throw new Error('Camera not initialized yet');
 
-    const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+    const stream = await navigator.mediaDevices.getUserMedia({
+      video: {
+        facingMode: 'environment',
+      },
+    });
     cameraRef.srcObject = stream;
   };
 
