@@ -102,6 +102,7 @@
 
 .input {
   border: none;
+  border-radius: 0;
   font-size: 1.2rem;
   padding: 8px 0;
   border-bottom: 1px solid var(--main-dark);
@@ -142,6 +143,7 @@
 }
 
 .paymentInput {
+  border-radius: 0;
   border: none;
   border-bottom: 2px solid white;
   color: white;

@@ -28,6 +28,7 @@
   border-bottom: 1px solid var(--main-dark);
   padding: 4px;
   font-size: 18px;
+  border-radius: 0;
 }
 
 .input:focus {

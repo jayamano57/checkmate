@@ -77,16 +77,18 @@ export function CheckContactMeScreen({
     checkCopy.finalized = true;
     checkCopy.message = message ?? null;
 
-    // save this to firebase
-    await checkService.editCheck(checkCopy.id, checkCopy);
-
-    // copy link
-    await navigator.clipboard.writeText(window.location.href);
-
-    setProcessing(false);
-    setCheckState(checkCopy);
-
-    goToAllDone();
+    try {
+      // save this to firebase
+      await checkService.editCheck(checkCopy.id, checkCopy);
+      // copy link
+      await navigator.clipboard.writeText(window.location.href);
+    } catch (err) {
+      alert(err);
+    } finally {
+      setProcessing(false);
+      setCheckState(checkCopy);
+      goToAllDone();
+    }
   };
 
   const copyPayment = async (paymentProvider: PaymentProvider) => {

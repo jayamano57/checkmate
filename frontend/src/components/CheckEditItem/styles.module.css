@@ -8,6 +8,7 @@
 
 .checkEditInput {
   border: none;
+  border-radius: 0;
 
   padding: 4px 2px;
   font-size: 18px;
@@ -39,4 +40,5 @@
   width: 80px;
   text-align: right;
   border-bottom: 1px solid var(--gray-1-light);
+  border-radius: 0;
 }
