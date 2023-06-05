@@ -78,16 +78,18 @@ export function CheckContactMeScreen({
     checkCopy.message = message ?? null;
 
     try {
-      // save this to firebase
-      await checkService.editCheck(checkCopy.id, checkCopy);
       // copy link
       await navigator.clipboard.writeText(window.location.href);
+
+      // save this to firebase
+      await checkService.editCheck(checkCopy.id, checkCopy);
+
+      setCheckState(checkCopy);
+      goToAllDone();
     } catch (err) {
       alert(err);
     } finally {
       setProcessing(false);
-      setCheckState(checkCopy);
-      goToAllDone();
     }
   };
 
