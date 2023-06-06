@@ -144,6 +144,7 @@ export function CheckItemChooserScreen({
 
     setIsValid(hasSelected && !!name.trim());
   }, [name, partySize, role, selected]);
+
   return (
     <CheckPageLayout
       title="Choose your items"

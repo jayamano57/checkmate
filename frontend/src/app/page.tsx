@@ -64,6 +64,7 @@ export default function Home() {
       },
       items: data.lineItems.map((item) => ({
         ...item,
+        quantity: item.quantity ?? 1,
         id: uuid(),
         owner: null,
         claimedCount: 0,
