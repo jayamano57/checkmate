@@ -28,7 +28,8 @@ export function CheckEditScreen({
   const totalAmount = useMemo(() => {
     const itemsSum = check.items.reduce((prev, curr) => {
       const totalAmount = curr.totalAmount ?? 0;
-      return prev + curr.quantity * totalAmount;
+
+      return prev + (curr.quantity ?? 1) * totalAmount;
     }, 0);
 
     const tax = check.totalTax
